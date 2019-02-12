@@ -1,0 +1,24 @@
+/* Animaciones */
+.animated, 
+.fast {
+  animation-fill-mode: both;
+}
+
+.animated {
+  animation-duration: 1s;
+}
+
+.fast {
+  animation-duration: 0.3s;
+}
+
+.fadein {
+  animation-name: fadein;
+  opacity: 0;
+}
+
+@keyframes fadein {
+  to {
+    opacity: 1;
+  }
+}
